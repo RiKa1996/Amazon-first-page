@@ -1,0 +1,253 @@
+/** box1 **/
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    border: border-box;
+    border-radius: 1.3px;
+    box-sizing: border-box;
+
+}
+
+.navbar {
+    height: 60px;
+    background-color: #0f1111;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    
+}
+  /** amazon logo ke liye**/  
+.logo{
+    text-align: center;
+    margin: 1px;
+    margin-bottom: 1px;
+    padding: 6px 8px 0 0;
+    height: 38px;
+    font-size: 14px;
+    background-repeat: no-repeat;
+    background-position: -40px;
+  
+}
+
+/** ye code .in ke liye hai **/
+a{
+    display: flex;
+    text-align: center;
+    align-items: center;
+    text-decoration: none;
+    color: white;
+}
+
+
+/** ye code .in ke liye hai **/
+a span{
+    font-size: 14px;
+    margin-left: -10px;
+    margin-top: -6.5px;
+}
+
+
+/** ye sabhi pe boader krne ke liye hai.**/
+.border-white{
+    border: 1.5px solid transparent;
+
+}
+
+/** hume again an again na krna pade*/
+.border-white:hover{
+    border: 1.5px solid white;
+    
+}
+
+/** box2 **/
+
+.add-first{
+    color: #cccccc;
+    font-size: 12px;
+    margin-left: 17px;
+
+}
+
+.add-sec{
+    color: #ffffff;
+    font-size: 14px;
+    margin-left: 5px;
+}
+.add-icon{
+    display: flex;
+    align-items: center;
+}
+
+/*.nav-address:hover{
+    border: 2px solid orange;
+    border-collapse:inherit;
+}*/
+
+
+/** box3 **/
+.nav-search{
+    display: flex;
+    justify-content: space-evenly;
+    background-color: pink;
+    width: 620px;
+    height: 40px;
+    border-radius: 4px;
+
+}
+.search-select{
+    background-color: #f3f3f3;
+    width: 50px;
+    text-align: center;
+    border-top-left-radius: 4px;
+    border-bottom-left-radius: 4px;
+    border: none;
+    
+}
+
+.search-input{
+    width: 100%;
+    font-size: 1rem;
+    border: none;
+}
+
+.search-icon{
+    width: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.3rem;
+    background-color: #febd68;
+    border-top-right-radius: 4px;
+    border-bottom-right-radius: 4px;
+    color: #0f1111;
+
+}
+.nav-search:hover{
+    border: 2px solid orange;
+    border-collapse: inherit;
+}
+
+/** box state wise flag ke liye. **/
+.flag{
+    text-align:end;
+    margin: 1px;
+    margin-bottom: 1px;
+    padding: 0 2px 1px 0;
+    height: 22px;
+    font-size: 14px;
+
+}
+/** ye code EN ke liye hai **/
+a{
+    display: flex;
+    text-align:unset;
+    color: white;
+}
+
+
+/** ye code EN ke liye hai **/
+a span{
+    font-size: 21px;
+    margin-left: -10px;
+}
+
+
+
+/** box4 **/
+span{
+    font-size: 12px;
+}
+.nav-second{
+    font-size: 14px;
+    font-weight: 700;
+}
+
+/** box5 **/
+.nav-cart i{
+    font-size: 32px;
+    font-weight: 700;
+}
+.nav-cart{
+    font-weight: 700;
+    font-size: 14px;
+}
+
+/* ===================================================================================================== */
+/** This is Panel tag and Panel Option **/
+.panel{
+    height: 40px;
+    background-color: #222f3d;
+    display: flex;
+    color: white;
+    align-items: center;
+    justify-content: space-evenly;
+   
+}
+.panel-ops p{
+    display: inline;
+    margin-left: 15px;
+   
+}
+.panel-ops{
+    width: 100%;
+    font-size: 14px;
+    font-weight: 500;
+}
+
+/* ===================================================================================================== */
+/** yha se hamara hero section start hota hai.**/
+/** this is hero section **/
+/** box-hero1**/
+.hero-image{
+    position: relative;
+
+}
+
+.hero-list{
+    display: flex;
+
+}
+
+/** hero section humari images hai jo ki 100% di gai hai. + isme hum javascript ke code ko bhi likhe hai.**/
+.hero-section{
+    min-width: 100%;
+    /**transform: translatex(-400%);**/        /** ye hume img ko slider krne me help krta hai.-- we will use in javascript**/
+    transition: transform 0.3s;
+}
+
+.hero-section img{
+    width: 100%;
+    height:100%;
+}
+
+/** This is a hero-button-container ---angle banane ke liye **/
+.hero-btn-container{
+    position: absolute;
+    top: 0;
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    
+}
+
+/** slider ko design krne ke liye**/
+.slider-btn{
+    border: 2px solid transparent;              /** solid transparent**/
+    padding: 100px 20px;
+    font-size: 50px;
+    font-weight: 300;
+    background-color: transparent;
+    color: black;
+    margin: 3px;
+    
+}
+
+/** ye focus hai*/
+.slider-btn:focus{
+    border-color:rgba(5, 139, 162, 0.907);
+    box-shadow: -2px -2px 2px rgb(230, 227, 227),
+    2px 2px 2px white;
+    margin: 3px;
+}
